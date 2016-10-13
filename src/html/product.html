@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>中一办公商城商品详情</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<!--所有公共页面的-->
+	<link rel="stylesheet" type="text/css" href="../css/product.css"/>
+	<!--公共模块，重复性common-->
+	<link rel="stylesheet" type="text/css" href="../css/commom1.css"/>
+	<link rel="stylesheet" href="../jquery-dxzoom/jquery.lxzoom.css">
+	<script src="../js/jquery-1.12.0.js"></script>
+	<script src="../js/product.js"></script>
+	<script src="../js/commom1.js"></script>
+	<script src="../jquery-dxzoom/jquery.lxzoom.js"></script>
+</head>
+<body>
+<div class="box1">
+	<div class="top">
+		<div class="top-left">
+			<a href="#">收藏中一办公</a>
+		</div>
+		<div class="top-right">
+			<span>您好，欢迎来到中一办公&nbsp;！</span>
+			<div id="dengru">
+				<a href="dengru.html">请登入&nbsp;|</a>
+				<a class="aa" href="register.html">免费注册&nbsp;|</a>
+				<a class="aa" href="#">我的订单&nbsp;|</a>
+				<a href="#">我的中一&nbsp;|</a>
+				<a href="#">帮助中心&nbsp;|</a>
+				<a href="#">在线客服&nbsp;|</a>
+				<span>010-67266751</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!--头部--hearder = logo + search-->
+<div class="box2">
+	<div class="header">
+		<div class="logo">
+			<a href="#"><img src="../img/zy100.com/logo.jpg"/></a>
+		</div>
+		<div class="serach">
+			<div class="serach-input">
+				<input type="text" placeholder="请输入商品名字" id="seracher"  />
+				<input type="submit" class="serachBtn" value=""/>
+				<p>
+					热门搜索：
+					<a href="#">硒鼓</a>
+					<a href="#">墨盒</a>
+					<a href="#">白板</a>
+					<a href="#">复印纸</a>
+				</p>
+			</div>
+			<div class="car">
+				<a href="shoppingCart.html">去购物车结算</a>
+				<span class="num" id="num">0</span>
+			</div>
+		</div>
+	</div>
+	
+	<div class="daohang">
+			<span class="feilei">所有商品分类</span>
+			<div class="shouye">
+				<ul>
+					<li><a href="../index.html">首页</a></li>
+					<li><a href="#">品牌专区</a></li>
+					<li><a href="liebiao.html">优惠特价</a></li>
+					<li><a href="#">积分兑换</a></li>
+					<li><a href="#">快速订单</a></li>
+				</ul>
+			</div>
+			<div class="lunbo">
+				<div class="lunbotu">
+					<ul>
+						<li><img src="../img/zy100.com/00001_1393169096.jpg"/></li>
+						<li><img src="../img/zy100.com/00002_1393174338.jpg"/></li>
+						<li><img src="../img/zy100.com/00003_1393166166.jpg"/></li>
+					</ul>
+				</div>
+				
+				<span class="pre"><img src="../css/img/headerscrollT.jpg"></span>
+				<span class="next"><img src="../css/img/headerscrollB.jpg"></span>
+			</div>
+		</p>
+	</div>
+	</div>  
+	
+<!-- 商品详情的图片 -->
+<div class="product">
+		<!-- 大图 -->
+		<div class="mianbaoxie">
+			<p>商品展示 > 点钞/验钞机 > 齐心 JBRD-3600(C) 财旺全智能型点验钞机 </p>
+		</div>
+		<!-- 大图下面的小图 -->
+		<div class="product-left">
+			<div class="myImg">
+				<img src="../img/zy100.com/552a1570N939f403c.jpg"/>
+			</div>
+			<div class="smallImg">
+				<span id="btn1">
+					<img src="../css/img/img81.jpg"/>
+				</span>
+				<ul>
+					<li><img src="../img/zy100.com/1431668957.jpg"/></li>
+					<li><img src="../img/zy100.com/1431665231.jpg"/></li>
+					<li><img src="../img/zy100.com/1431660088.jpg"/></li>
+					<li><img src="../img/zy100.com/1431667154.jpg"/></li>
+				</ul>
+				<span id="btn2">
+					<img src="../css/img/img8.jpg"/>
+				</span>
+			</div>
+			<div class="fenxiang">
+				<span id="share">分享到：</span>
+				<ul>
+					<!--放背景图片-->
+					<li><a>新浪微博</a></li>
+					<li><a>腾讯微博</a></li>
+					<li><a>人人网</a></li>
+					<li><a>微信</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="product-right">
+			<h4>齐心 JBRD-3600(C) 财旺全智能型点验钞机 </h4>
+			<ul>
+				<li><strong>商品货号：</strong>13302005</li>
+				<li><strong>商品品牌：</strong>齐心</li>
+				<li><strong>已出售：</strong>6件</li>
+			</ul>
+			<p><strong>中一价格：</strong><span class="prices">￥848.00/台</span></p>
+			<p>购买数量：<span id="sl">0</span>
+				<span class="jia">
+					<img class="add" src="../css/img/btn5.jpg"/>
+					<img class="jian" src="../css/img/btn6.jpg"/>
+				</span>
+			</p>
+			<div class="goumai">
+				<span class="buy">立刻购买</span>
+				<span class="jiaru" id="jiaru">加入购物车</span>
+				<span class="jiaru">收藏商品</span>
+			</div>
+			
+		</div>
+</div>		
+
+<div class="cart-list">
+		<span>购物车</span>
+		<h4>购物车列表</h4>
+        <ul>
+        </ul>
+    </div>
+	
+<div class="sp-main">
+		<div class="sp-left">
+			<div class="zxsp">
+				<span class="zxsp-txt">最新商品</span>
+				<ul class="shopImg">
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="textt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="numbe">￥2310.00/个</span>
+					</li>
+				</ul>
+				<ul class="shopImg">
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="textt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="numbe">￥2310.00/个</span>
+					</li>
+				</ul>
+				<ul class="shopImg">
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="textt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="numbe">￥2310.00/个</span>
+					</li>
+				</ul>
+				<ul class="shopImg">
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="textt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="numbe">￥2310.00/个</span>
+					</li>
+				</ul>
+			</div>
+			<div class="zxsp">
+				<span class="zxsp-txt">促销商品</span>
+				<ul class="shopImg">
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="textt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="numbe">￥2310.00/个</span>
+					</li>
+				</ul>
+			</div>
+			<div class="zxsp">
+				<span class="zxsp-txt">热销排行</span>
+				<ul class="shopImg">
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="textt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="numbe">￥2310.00/个</span>
+					</li>
+				</ul>
+			</div>
+			<div class="zxsp">
+				<span class="zxsp-txt">您可能会喜欢</span>
+				<ul class="shopImg">
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="textt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="numbe">￥2310.00/个</span>
+					</li>
+				</ul>
+				<ul class="shopImg">
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="textt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="numbe">￥2310.00/个</span>
+					</li>
+				</ul>
+				<ul class="shopImg">
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="textt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="numbe">￥2310.00/个</span>
+					</li>
+				</ul>
+			</div>
+			<div class="zxsp">
+				<span class="zxsp-txt">最近浏览</span>
+				<ul class="liulan">
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="liulan-txt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="liulan-jiage">￥2310.00/个</span>
+					</li>
+					<li>
+						<a href="#"><img src="../img/zy100.com/1407739309.jpg"/></a>
+						<span class="liulan-txt"><a href="#">康艺 ht-2780+点钞机</a></span>
+						<span class="liulan-jiage">￥2310.00/个</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="sp-right">
+			<div class="pingjia">
+				<ul>
+					<li class="daohang2" id="daohang1">商品详情
+						<div>齐心 JBYD-3600C USB升级点验钞机 便携全智能语音点钞机</div>
+					</li>
+					<li class="daohang2">配送时间
+						<!--<div>
+							<ul>
+								<li class="shijian">配送服务时间：</li>
+								<li>周一至周五<strong>8:30-18:00</strong></li>
+								<li>工作日晚间及周六、周日如有特殊需求请联系客服。</li>
+								<li>国定假日配送时间另行公告。</li>
+								<li>注：</li>
+								<li>部分供应商直送商品和需请购商品，销售服务人员将与您确认具体可送达的日期和相关事宜</li>
+								<li>对于特殊情况不能及时送达，销售服务人员将随时电话联系客户协商调整送货时间</li>
+								<li>如遇大雨、台风等自然因素，为确保商品品质和送货安全，将会酌情延迟送货</li>
+								<li>某些季节性送货时间略有调整，请以网站公告为准</li>
+							</ul>
+						</div>-->
+					</li>
+					<li class="daohang2">支付说明
+						<!--<div>
+							<ul>
+								<li class="shijian">配送服务时间：</li>
+								<li>商品到货时,客户须支付货款及未满规定免费送货金额时的送货费。</li>
+								<li>部分商品或服务需支付预付款，货款到账确认后发货。</li>
+								<li>订购金额稳定的个别客户根据中一办公的信用评估结果，可签订月结合同，月底结款。</li>
+							</ul>
+						</div>-->
+					</li>
+					<li class="daohang2">售后服务
+						<!--<div>
+							<ul>
+								<li class="shijian">售后服务说明：</li>
+								<li>拨打客服电话，即可预约上门服务。</li>
+								<li>上门服务包括：免费退换货，设备选配方案咨询、安装调试、设备更换、设备维修、代客送检等。</li>
+							</ul>
+						</div>-->
+					</li>
+					<li class="daohang2">用户咨询
+						<!--<div>
+							<ul><li></li></ul>
+						</div>-->
+					</li>
+					<li class="daohang2">评价
+						<!--<div>
+							<span><h5>0</h5>条评论</span>
+							<textarea  rows="" cols=""><input type="text" value="发布" /></textarea>
+						</div>-->
+					</li>
+				</ul>
+			</div>
+			<p><span class="pink">商品展示</span></p>
+			<div class="big-img">
+				<ul>
+					<li><img src="../img/zy100.com/552a156eNfdf73daa.jpg"/></li>
+					<li><img src="../img/zy100.com/552a156fN208b643f.jpg"/></li>
+					<li><img src="../img/zy100.com/552a156fNc8d1db64.jpg"/></li>
+					<li><img src="../img/zy100.com/552a1570N939f403c.jpg"/></li>
+					<li><img src="../img/zy100.com/552a1570N9e86f59a.jpg"/></li>
+					<li><img src="../img/zy100.com/552a1570Ndf10b31e.jpg"/></li>
+					<li><img src="../img/zy100.com/552a1571Ne21a5abf.jpg"/></li>
+					<li><img src="../img/zy100.com/552a1571N2640a0fa.jpg"/></li>
+					<li><img src="../img/zy100.com/552a1571N2640a0fa.jpg"/></li>
+					<li><img src="../img/zy100.com/552a1572Ne84d8fc3.jpg"/></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 最底部 (公共部分)-->
+
+</div>		
+<div class="footer">
+	<div class="serviceList">
+		<dl>
+			<dt>购物指南</dt>
+			<img src="../img/zy100.com/green.JPG">
+			<dd><a href="#">注册新用户</a></dd>
+			<dd><a href="#">购物流程</a></dd>
+			<dd><a href="#">订单查询</a></dd>
+			<dd><a href="#">常见购物问题</a></dd>
+		</dl>
+		<dl>
+			<dt>订单支付</dt>
+			<img src="../img/zy100.com/green.JPG">
+			<dd><a href="#">货到付款</a></dd>
+			<dd><a href="#">在线支付</a></dd>
+			<dd><a href="#">如何办理退款</a></dd>
+			<dd><a href="#">发票制度</a></dd>
+		</dl>
+		
+		<dl>
+			<dt>订单配送</dt>
+			<img src="../img/zy100.com/green.JPG">
+			<dd><a href="#">配送费用范围</a></dd>
+			<dd><a href="#">配送时间和</a></dd>
+			<dd><a href="#">配送常见问题</a></dd>
+			<dd><a href="#">配送方式</a></dd>
+		</dl>
+		<dl>
+			<dt>售后服务</dt>
+			<img src="../img/zy100.com/green.JPG">
+			<dd><a href="#">缺货处理</a></dd>
+			<dd><a href="#">退换货政策</a></dd>
+			<dd><a href="#">退换货流程</a></dd>
+			<dd><a href="#">联系客服</a></dd>
+		</dl>
+		<dl>
+			<dt>帮助中心</dt>
+			<img src="../img/zy100.com/green.JPG">
+			<dd><a href="#">关于我们</a></dd>
+			<dd><a href="#">积分兑换</a></dd>
+			<dd><a href="#">建议反馈</a></dd>
+			<dd><a href="#">正品保证</a></dd>
+		</dl>
+	</div>
+	<div class="footer-bottom">
+		<p>世纪中一（zy100）专业办公用品采购平台,满足一切办公所需,正品低价,货到付款,免费退换货.销售各类办公用品,办公设备,办公耗材,办公文具,复印纸,日用品,礼品定制,办公家具,硒鼓墨盒,得力文具,齐心文具。</p>
+		<p>Copyright © 2016 北京中一文仪商贸有限公司 All Rights Reserved 备案号：京ICP备14012128号<img src="../img/zy100.com/00105_pic.gif"/></p>
+	</div>
+
+	
+</div>
+
+<div class="service" >
+		<div class="box-min">
+			<span>在线客服</span>
+			<p class="red">上班时间</p>
+			<p class="pink">9:00-18:00</p>
+			<p class="red">在线客服</p>
+			<p><img src="../css/img/qq.JPG">1486839115</p>
+			<p><img src="../css/img/qq.JPG">3252756593</p>
+			<p class="red">热线电话</p>
+			<p class="pink"><img src="../css/img/phone.JPG">010-67266715</p>
+		</div>
+
+</div>
+<div class="goTopBtn">
+	<span class="Top"><img src="../img/zy100.com/00103_return_t.jpg"></span>
+	<span class="diaocha"><img src="../img/zy100.com/00104_zxdc.jpg"></span>
+</div>
+<div class="zixun">	
+	<span class="btn">
+		<img src="../img/zy100.com/2.jpg">
+	</span>
+	<div class="btnImg">
+	<a href="#"><img src="../img/zy100.com/zxjl.jpg"></a>
+	</div>
+	
+	
+	
+	</body>
+</html>

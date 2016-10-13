@@ -1,0 +1,117 @@
+body{width: 100%;height: 100%;position: relative;}
+.headerWrap{width:100%;height: 97px;border-bottom: 1px solid #91A3C1;}
+.header{width: 980px;height: 97px;margin: 0 auto;}
+/*头部左侧*/
+.herder-left{width: 720px;height: 97px;float: left;display: block;}
+.herder-left img{margin-top: 19px;}
+/*头部右侧*/
+.header-right{width:260px;height: 97px;float: right;display: block;}
+.right-top{height: 25px;padding-top:30px;text-align: right;font-family: "宋体";}
+.right-top a{color: #315480;}
+/*电话背景图*/
+.header-right p{
+	width: 180px;height: 30px;
+	padding-left: 50px;
+	line-height: 30px;
+	background: url(../css/img/phone1.jpg) no-repeat;
+}
+
+/*注册内容*/
+.drMain{
+	width: 980px;height: 700px;
+	margin: 0 auto;
+	border:1px solid #ccc;
+	border-top:2px solid #e72110;
+	margin-top: 20px;margin-bottom:10px;
+	position: relative;
+}
+.drMain-top{
+	width: 980px;
+	height: 40px;
+	line-height: 40px;
+	background: #F3F3F3;
+}
+.drMain-top  span{
+	padding:0 20px;
+	float: left;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	border-right: 1px solid #e6e6e6;
+	background: #f3f3f3;
+	cursor: pointer;
+	color: #551AA8;
+}
+.drMain-top .active {
+	display: block;
+	border-right:none;
+	background: #fff;
+}
+
+.drMain-buttom{
+	width: 725px;
+	height: 620px;
+	margin:20px 0 0 180px;
+}
+.xyh{
+	width: 725px;
+	color:#c00;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*小图片*/
+.xyh div{padding:0 10px;float: left;}
+/*大盒子*/
+.username{
+	width: 700px;
+	color:#666;
+	
+}
+/*用户名*/
+.username tr{display: inline-block;}
+.username .mingzi{
+	width: 90px;
+	height: 37px;
+	line-height: 37px;
+	display: block;
+	text-align: right;
+	float:left;
+
+}
+/**/
+.username .right{
+	display: block;
+	width: 600px;
+	float: right;
+}
+
+/*input*/
+.put{
+	border:1px solid inherit;
+	width: 208px;
+	height: 25px;
+	
+}
+/*星号**/
+.xinghao{width: 380px;margin-left: 10px;color: red;}
+
+#question{margin-top:10px;}
+.username a{color:#c00;}
+.username .aa{color:#000;}
+.zhuce{
+	display: block;
+	width: 88px;
+	height: 29px;
+	background: url(../css/img/btn1.jpg) no-repeat;
+	
+	line-height: 29px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.zhuce a{color: #fff;}

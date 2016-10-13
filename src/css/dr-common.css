@@ -1,0 +1,103 @@
+/*最底部部分*/
+.footer{
+	top:15px;
+	width: 1210px;
+	margin:0 auto;
+	overflow: hidden;
+	color: #999;
+	
+	bottom: 0;
+}
+.footer .serviceList{
+	
+	width: 1210px;
+	overflow: hidden;
+	border-bottom: 1px solid #e3dedf;
+	border-top: 1px solid #e3dedf;
+	height: 147px;
+}
+.footer .serviceList dl{
+	padding: 10px 68px 0 68px;
+	text-align: center;
+	line-height: 24px;
+	width: 105px;
+	float: left;
+}
+.footer .serviceList dl dt{
+	margin-bottom: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.footer .serviceList dl dt a{
+	color:#333;
+}
+
+.footer-bottom{
+	width: 1210px;
+	height: 130px
+	}
+.footer-bottom p{
+	line-height: 25px;
+	text-align: center;
+}
+.footer-bottom p img{
+	margin-left:900px;
+	margin-top: -18px;
+}
+/*在线咨询*/
+.service{
+	z-index: 10;
+	width: 150px;
+	height: 315px;
+	position: fixed;
+	right:-150px;
+	top: 180px;
+	background: #fff;
+	text-align: center;
+}	
+.service span{
+	display: block;
+	width: 28px;
+	height: 90px;
+	font-size: 16px;
+	background: #E50002;
+	color: white;
+	font-family: "宋体";
+	position: absolute;
+	top: 50%;left: -33px;
+	margin-top:-45px;
+	line-height: 21px;
+	padding-top: 3px;
+	padding-left:6px;
+	cursor:pointer;
+	text-align: left;
+	border-radius: 5px;
+}
+.service .box-min{
+	border-top: 1px solid #E50002;
+	position: relative;
+	border-radius: 5px;
+	border:5px solid red;
+}
+/* 回到顶部*/
+.goTopBtn{width: 20px;position:fixed;height: 170px;right:8px;top:400px;}
+.goTop,.diaocha{
+	display: block;
+	width: 20px;height: 84px;margin-top: 15px;
+	position: absolute;
+}
+/*------在线交流------*/
+.zixun{
+	z-index: 100;
+	width: 128px;height: 102px;
+	position: fixed;bottom: -10px;left: 0px;
+}
+.btn{
+	display: block;left: 100px;
+	width: 25px;height: 66px;position: absolute;top:50%;
+	top:20px;cursor: pointer;
+}
+.btnImg{
+	width: 100px;height: 102px;
+}

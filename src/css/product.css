@@ -1,0 +1,165 @@
+.product{
+	width: 1210px;
+	height: 485px;
+	margin: 0 auto;
+	position: relative;
+}
+.mianbaoxie{width:1210px;height: 40px;line-height: 40px;font-size: 13px;}
+/*左侧 产品图片*/
+.product-left{width: 350px;height: 450px;float: left;}
+.myImg{width: 300px;height: 300px;border: 1px solid #CCC;position: relative;}
+.myImg img{width: 300px;height:300px;position: absolute;}
+.smallImg{height: 50px;width: 360px;margin-top:8px;}
+#btn1{width: 15px;height:49px;float: left;}
+.smallImg ul{width: 300px;height: 52px;
+	position: absolute;
+	left: 15px;
+	
+	}
+ .smallImg ul li{
+	width: 49px;height: 49px;border:1px solid #CCC ;
+	margin-left: 10px;display: block;float: left;
+}
+ .smallImg ul li img{width: 49;height: 49px;}
+#btn2{width: 15px;height: 50px;position: absolute;left: 265px;}
+.fenxiang{height: 30px;margin-top: 15px;}
+#share{width: 70px;height: 30px;float: left;text-align: right;background: url(../css/img/icons_0_16.png) no-repeat;}
+.fenxiang ul{width: 280px;display: block;float: right;}
+.fenxiang ul li{float: left;text-align: right;padding: 0 10px;}
+  /*飞入购物车效果*/
+
+.cart-list{
+	width: 302px;
+	height: 100%;
+	position: absolute;
+	z-index: 800;
+	right:-302px;
+	background: #fff;
+	text-align: center;
+	border:5px solid #CCC;
+	top: 10px;  
+   	border: 1px solid #ddd;
+    z-index: 1000;
+}	
+.cart-list span{
+	display: block;
+	width: 28px;
+	height: 90px;
+	font-size: 16px;
+	background: blue;
+	color: white;
+	font-family: "宋体";
+	position: absolute;
+	top: 50%;left: -33px;
+	margin-top:-25px;
+	line-height: 21px;
+	padding-top: 3px;
+	padding-left:6px;
+	cursor:pointer;
+	text-align: left;
+	border-radius: 5px;
+}
+.cart-list h4 {
+        margin: 0;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ddd;
+    }
+.cart-list img {
+        width: 250px;
+        height: 250px;
+}
+
+.cart-list li{position:relative;height:200px;}
+  
+/*----右侧--购买产品---*/
+.product-right{
+	height: 7177px;
+	width: 835px;
+	float: right;
+	margin-left: 25px;
+	left: 360px;
+	height: 450px;
+	color: #666;
+	font-size: 14px;
+}
+.product-right h4{height:35px ;font-size: 18px;padding-left: 8px;line-height: 35px;}
+.product-right ul {height: 90px;border-top: 1px dotted #CCC;border-bottom: 1px dotted #CCC;}
+.product-right ul li{height: 30px;line-height: 30px;}
+.product-right ul li strong{font-weight: bold;}
+.product-right p{height: 55px;line-height: 51px;font-weight: bold;border-bottom: 1px dotted #CCC;}
+.product-right .prices{color:#C71102 ;}
+#sl{width: 52px;height: 28px;
+	line-height: 28px;
+	border: 1px solid #ccc;
+	text-align: center;
+	position: absolute;
+	margin-top: 10px;}
+.jia{width: 16px;height: 28px;left: 505px;position: absolute;margin-top: 11px;}
+
+.product-right .goumai{width:835px;height:60px;display:inline-block;}
+
+.buy{margin-top: 20px;padding: 8px 10px 0 12px;
+	display: block;float: left;
+	height: 50px;width:88px;
+	background: url(../css/img/btn1.jpg) no-repeat;
+	color: white;
+	font-weight: bold;
+}
+.jiaru{margin-top: 20px;padding: 10px 10px 0 12px;
+	display: block;float: left;
+	height: 50px;width:88px;
+	font-size: 13px;
+	background: url(../css/img/btn1b.jpg) no-repeat;
+	color: white;
+}
+.sp-main{width:1210px;height: 7080px;margin: 0 auto;position:relative;}
+.sp-left{width: 230px;float: left;}
+.zxsp{border:1px solid #e0e0e0;margin-top:6px;}
+.zxsp-txt{
+	display: block;
+	width: 230;height:30px;
+	background-color: #e0e0e0;
+	line-height: 30px;
+	text-align: left;
+	color: #5e5e5e;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 18px;
+	}
+.shopImg{margin-top: 5px;}
+.shopImg li{width: 230px;height: 220px;border-bottom: 1px solid #E7E7E7;}
+.shopImg li img{width: 180px;height: 150px;margin: 2px 15px;}
+.textt a{height:22px ;color: #5e5e5e;padding-left: 18px;padding-top: 8px;display: block;}
+.shopImg .numbe{height: 22px;color:#ea2c2c;padding-left:18px;padding-top: 8px;display: block;}
+/* 最近浏览*/
+.liulan{width:230;height: 100%;}
+.liulan li{width:230;height: 100px;margin-top:10px;border-bottom: 1px solid #E7E7E7;} 
+.liulan a img{width: 60px;height: 60px;padding:15px 0 15px 10px;display: block;float: left;}
+.liulan-txt{width: 100px;height: 46px;line-height: 26px;padding:15px 20px 0 0;display: block;float: right;}
+.liulan-jiage{width:100px ;height: 22px;color:#ea2c2c;display: block;float: right;padding:10px 20px 0 0;}
+
+/*右侧商品详情大图*/
+.sp-right{width: 980px;float: right;position: absolute;left: 248px;margin-top:10px;}
+.pingjia ul{width: 980px;height: 40px;display: block;border-bottom: 1px solid #CCC;}
+.daohang2{
+	width: 100px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	font-size: 16px;}
+.pingjia #daohang1{background: #000;color: #fff;}
+
+/* "商品详情"  点击时显示对应的div*/
+.daohang2 div{width: 980px;min-height:100px ;height: 100%;}
+.daohang2 .shijian{font-family: "宋体";color: #666;font-weight: bold;}
+.daohang2 li{font-family: "宋体";color: #666;}
+.sp-right p{width: 980;height: 40px;margin-top: 50px;background: #E70012;}
+.sp-right .pink{
+	width: 140px;height: 40px;
+	background:#ee4a57;color: #fff;
+	text-align: center;font-size:18px ;line-height: 40px;
+	padding-left: 10px;position: absolute;z-index: 1;
+}
+.big-img{width: 9px;height: 100%;margin: 40px 0 0 60px;}
+.big-img li img{display: block;margin-top:25px;width: 750px;height: 667px;}

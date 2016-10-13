@@ -1,0 +1,323 @@
+/*页面的头部和底部样式*/
+.box1{
+	width:100%;
+	height:30px ;
+	background: #f4f4f4;
+	line-height: 30px;
+}
+/*整体*/
+.top{
+	width: 1210px;
+	height: 30px;
+	margin: 0 auto;
+}
+  /*收藏中一*/
+.top .top-left{
+	float: left;
+	width: 360px;
+	height: 30px;
+	}
+	/*a1,a2要高亮显示*/
+.top-left a{
+	line-height: 30px;
+	height: 30px;
+	text-align: left;
+	color: #666666;
+	font-size:12px;
+	display: block;
+	}
+.top-right {
+	width: 850px;
+	height: 30px;
+	display: block;
+	float: right;
+	}
+	/*欢迎浮动到左边*/
+.top-right span {
+	width: 320px;
+	height: 30px;
+	display: block;
+	text-align: right;
+	float: left;  
+}	
+/*登入浮动到右边*/
+.top-right #dengru{
+	width: 530px;
+	height: 30px;
+	float: right;
+}
+.top-right #dengru a{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #666666;
+	display: block;
+	float: left;
+	}
+.top-right #dengru .aa{color: #D52120;}	
+.top-right #dengru span{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+/*logo部分*/
+.box2{
+	width:100%;
+	height:137px ;
+	border-bottom:2px solid #e70012;
+}
+.header{
+	width: 1210px;
+	height: 90px;	
+	margin: 0 auto;
+	position: relative;
+}
+/*  分成三个div，然后每个div又分成上下部分 */
+/*1.上*/
+.header .logo a{
+	display: block;
+	width: 209px;
+	height: 60px;
+	float: left;
+	padding: 15px 0;
+	top: 0;
+	left: 0;
+}
+/*  div搜索框*/
+.header .serach{
+	position: absolute;
+	top: 0;
+	left: 209px;
+	width: 1000px;
+	height: 90px;
+}
+/*div搜索框的左边*/
+.header .serach-input{
+	width: 800px;
+	height: 67px;
+	padding-top: 23px;
+	position: absolute;
+}
+#seracher{
+	border: 3px solid #e70012;
+	position: absolute;
+	left: 200px;
+	width: 370px;
+	height: 35px;
+}
+.header .serach-input .serachBtn{
+	background:url(../css/img/serach.jpg) no-repeat ;
+	width: 53px;
+	height: 43px;
+	border: 3px solid #e70012;
+	left: 576px;
+	position: absolute;
+}
+/*"热门搜索"*/
+.header .serach-input p{
+	width: 400px;
+	padding-top:10px ;
+	position: absolute;
+	left: 200px;
+	bottom: 0px;
+	color: #999999;
+}
+.header .serach-input p a{
+	margin-left: 10px;
+	color: #999999;
+}
+/*div搜索框的右边*/
+  /*购物车*/
+.header .car {
+	width: 200px;
+	height: 90px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.header .car a{
+	z-index: 1;
+	border: 1px solid #e7e7e7;
+	width: 132px;
+	height: 33px;
+	background: url(../css/img/car.jpg) no-repeat;
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	color: #666666;
+}
+.header .car .num{
+	width: 20px;
+	height: 17px;
+	z-index: 2;
+	margin: 14px 0 0 16px;
+	background: #bfbfbf;
+	color: white;
+	display: block;
+	line-height: 17px;
+	text-align: center;
+}
+.pre{width: 6px;height: 3px;position: absolute;right: 45px;top:8px;}
+.next{width: 6px;height: 3px;position: absolute;right: 45px;top:20px;}
+/*导航-首页*/
+.daohang{
+	position: relative;
+	width: 1210px;
+	height: 47px;
+	margin: 0 auto;
+}
+/*商品分类*/
+.daohang .feilei{
+	width: 209px;
+	height: 47px;
+	position: absolute;
+	background: #e70012;
+	line-height: 47px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+.daohang .shouye ul{
+	width: 800px;	
+	height: 47px;
+	position: absolute;
+	left: 209px;
+}
+ 
+.daohang .shouye li{
+	display: block;
+	width: 90px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	float: left;
+}
+.daohang .shouye li a{
+	font-weight: bold;
+	color: black;
+	font-size:14px;
+}
+/*小的轮播图  大div*/
+.daohang .lunbo{
+	width: 200px;
+	height: 34px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 980px;
+	}
+/*小div*/
+.banner{
+	overflow: hidden;
+	width: 134px;
+	height: 34px;
+	position:relative;
+}
+/*  ul  */
+.lunbotu{position: absolute;top: 0;left:0;}*/
+.lunbotu li{width: 134px;
+	height: 34px;}
+.lunbotu li img{width: 134px;
+	height: 34px;}	
+/*最底部部分*/
+.footer{
+	top:15px;
+	width: 1210px;
+	margin:0 auto;
+	overflow: hidden;
+	color: #999;
+	bottom: 0;
+}
+.footer .serviceList{
+	
+	width: 1210px;
+	overflow: hidden;
+	border-bottom: 1px solid #e3dedf;
+	border-top: 1px solid #e3dedf;
+	height: 147px;
+}
+.footer .serviceList dl{
+	padding: 10px 68px 0 68px;
+	text-align: center;
+	line-height: 24px;
+	width: 105px;
+	float: left;
+}
+.footer .serviceList dl dt{
+	margin-bottom: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.serviceList a{
+	color:#333;
+}
+
+.footer-bottom{
+	width: 1210px;
+	height: 130px
+	}
+.footer-bottom p{
+	line-height: 25px;
+	text-align: center;
+}
+.footer-bottom p img{
+	margin-left:900px;
+	margin-top: -18px;
+}
+/*在线咨询*/
+.service{
+	z-index: 10;
+	width: 150px;
+	height: 250px;
+	position: fixed;
+	right:-150px;
+	top: 180px;
+	background: #fff;
+	text-align: center;
+	border-radius: 5px;
+	border:5px solid red;
+}	
+.service span{
+	display: block;
+	width: 28px;
+	height: 90px;
+	font-size: 16px;
+	background: #E50002;
+	color: white;
+	font-family: "宋体";
+	position: absolute;
+	top: 60%;left: -33px;
+	margin-top:-45px;
+	line-height: 21px;
+	padding-top: 3px;
+	padding-left:6px;
+	cursor:pointer;
+	text-align: left;
+	border-radius: 5px;
+}
+.service .box-min{
+	border-top: 1px solid #E50002;
+	position: relative;
+	
+}
+/* 回到顶部*/
+.goTopBtn{width: 20px;position:fixed;height: 170px;right:8px;top:400px;}
+.goTop,.diaocha{
+	display: block;
+	width: 20px;height: 84px;margin-top: 15px;
+	position: absolute;
+}
+/*------在线交流------*/
+.zixun{
+	z-index: 100;
+	width: 128px;height: 102px;
+	position: fixed;bottom: -10px;left: 0px;
+}
+.btn{
+	display: block;left: 100px;
+	width: 25px;height: 66px;position: absolute;top:50%;
+	top:20px;cursor: pointer;
+}
+.btnImg{
+	width: 100px;height: 102px;
+}

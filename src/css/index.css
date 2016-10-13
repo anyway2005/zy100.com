@@ -1,0 +1,339 @@
+/*不是公共部分*/
+/*------------------------主体-------------*/
+.main{
+	width: 1210px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-bottom: 1px solid #cdcdcd;
+	position: relative;
+}
+/*列表广告*/
+.indexListBanner{
+	width: 1210px;
+	margin:0 auto;
+	height: 317px;
+}
+/*打印耗材*/
+.indexListBanner .indexList-left .indexList-min{
+	width: 207px;
+	height: 312px;
+	padding-top: 5px;
+	background: #e84848;
+	border-left: 2px solid #e70012;
+	z-index: 100;
+}
+.indexListBanner .indexList-left .indexList-min li{
+	width: 209px;height: 38px;float: left;
+}
+.indexListBanner .indexList-left .indexList-min li a{
+	display: block;height: 36px;line-height: 36px;width: 170px;
+	float: right;padding-left: 40px;font-size: 14px;color: #fff;
+}
+.indexListBanner .indexList-left .indexList-min li a:hover{
+	color: #e70012;background: white;
+	
+}
+.indexListBanner .indexList-left .indexList-min li:hover{border-left:2px solid #e84848;}
+
+/*划过才显示的列表,大盒子 */  
+.indexListBanner .indexList-left .con{
+	left: 210px;
+	top: 0px;
+	width: 675px;
+	padding: 5px 0 20px 0;
+	background: #fff;
+	z-index: 300;
+	overflow: hidden;
+	position: absolute;
+	display: none;
+}
+#con3 { top: 20px;}
+#con4 { top: 40px;}
+#con5 { top: 60px;}
+#con6 { top: 100px;}
+#con7 { top: 170px;}
+#con8 { top: 190px;}
+.indexListBanner .indexList-left .con .smallBox{
+ 	width: 530px;overflow: hidden;
+}
+.smallBox-bottom { width: 530px; }
+.indexListBanner .indexList-left .con .txt{
+ 	width: 78px;float: left;text-align: center;color: #e70012;
+ 	font-weight: bold;
+ 	padding-top: 7px;
+ }
+ .goods-con-a p { width: 490px;color: #e70012;
+ 	font-weight: bold;
+ 	padding-top: 7px;padding-left: 40px;}
+.indexListBanner .indexList-left .con ul{
+ 	width: 420px;
+ 	float: left;
+ 	overflow: hidden;
+ 	padding: 10px;
+ }
+.indexListBanner .indexList-left .con ul li{
+	float: left;line-height: 24px;padding: 0 10px;color#000000;
+
+}
+.indexListBanner .indexList-left .con ul li a{
+	color:#000000;display:inline-block;white-space:nowrap;
+	padding-left: 5px;
+}
+.indexListBanner .indexList-left .con ul li a:hover{
+	color: #e70012;
+}
+	/*推荐品牌*/
+.indexListBanner .indexList-left .con dl{
+	margin-top:10px;line-height: 24px;
+	float: left;;width: 129px;
+	text-align: center;
+}
+.indexListBanner .indexList-left .con dl dt{
+	color: #4b4645;font-weight: bold;
+}
+.indexListBanner .indexList-left .con dl dt a{
+	color: #000;
+}
+.indexListBanner .indexList-left .con .goods-con-a{
+	float:left;border-right: 1px solid #CCC;
+}
+.indexListBanner .indexList-left .con .goods-con-b{
+	width: 129px;height: auto;float: left;min-height: 120px;
+}
+/*大轮播图*/
+.lbt{
+	overflow: hidden;width: 715px;height: 306px;
+	border:1px solid #fdad6d;
+	position: relative;
+	margin-top: -310px;
+	left: 219px;
+	overflow: hidden;
+}
+/*给所有图片重合在一起*/
+.lbt ul li{
+	position: absolute;
+	top: 0;
+}
+.lbt .number{
+	position: absolute;bottom: 0;
+	right: 0;
+	z-index: 150;
+}
+.lbt .number span{
+	display: block;
+	float: left;
+	width: 22px;
+	height: 13px;
+	background: red;
+	margin-left: 1px;
+	line-height: 13px;
+	text-align: center; 
+	background: #575455;
+	color: #fff;
+}
+.lbt .number span:hover{
+	background: #d00a0d;
+	
+}
+/*-----------轮播图右侧----------*/
+.body-right{
+	width: 262px;
+	height: 306px;
+	margin-top: -308px;
+	left: 942px;
+	position: relative;
+}
+/*ul*/
+.body-right .imgList{
+	width: 261px;height: 89px;
+	border: 1px solid #ebebeb;
+	border-right: none;
+}
+.body-right .imgList li{
+	width: 86px;text-align: center;height: 89px;
+	border-right: 1px solid #ebebeb;
+	float: left;color: #a2a2a2;
+}
+.body-right .imgList li img{
+	width: 86px;height: 63px;
+	display: block;
+}
+.textList{
+	width: 260px;height: 109px;
+	border:1px solid #ebebeb;
+	margin-top: 8px;
+}
+.textList dt{
+	height: 31px;
+	line-height: 31px;font-weight: bold;
+	color: #353535;
+	font-size: 15px;
+	padding-left: 10px;
+	background: #f5f5f5;
+	border-bottom: 1px solid #ebebeb;
+}
+.textList .more{
+	font-family: "宋体";font-weight: normal;padding-left: 100px;
+	color: #ee2b3e;font-size: 13px;
+}
+.textList dd{
+	width: 230px;
+	line-height: 24px;padding-left: 15px;
+}
+.textList dd a{color:#353535;}
+.imgList2{
+	width: 262px;height: 89px;margin-top: 8px;
+}
+/*------------期间特价-----------------------*/
+.box3{width: 1210px;height:327px;margin:0 auto;
+position: relative;border-bottom: 1px solid #CCC;}
+
+
+.product-left{width: 940px;height: 327px;margin-top: 3px;float: left;}
+.product-tab{width: 940px;height: 39px;position: relative;}
+.product-tab .tab-list{
+	width: 235px;height: 37px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 16px;
+	color: #898989;
+	float: left;
+	display: block;
+	border-bottom: 2px solid #cecece;
+	cursor: pointer;
+}
+.product-tab .tab-list:hover{
+	color: #c71b21;
+	border-bottom: 2px solid #e41922;
+}
+/*  期间特价下面的ul*/
+.tab-all{
+	left: 0;
+	position: absolute;
+	width: 945px;
+	height: 288px;
+	display: none;
+}
+.tab-all-1{
+	display: block;
+}
+.tab-all .one{
+	width: 235px;height: 288px;
+	display: block;float: left;
+}
+.tab-all .one img{width:190px ;height:190px ;padding:5px 15px; }
+.tab-all .one img:hover{width:190px ;height:190px ;margin:5px 15px;border: 1px solid #e3dedf;}
+/*  -所有价格 文字 样式--*/
+ .namee{
+	width: 190px;height: 40px;line-height: 20px;overflow: hidden;
+	color: #777;font-size: 13px;margin: 2px 0 0 20px;display: block;
+	text-align: left;
+}
+.price{
+	width: 235px;height: 37px;
+	text-align: left;
+	font-size: 15px;
+	color: #e2051b;margin-left: 20px;
+}
+/*------热销品牌-----*/
+.product-right{
+	margin-top: 13px;
+	margin-left:945px;
+	position: absolute;
+	width: 262px;height: 327px;overflow: hidden;
+	float: right;
+	
+}
+.product-right h4{
+	height: 24px;line-height: 24px;font-size: 15px;
+	color: #787878;border-bottom: 2px solid #cecece;
+	padding-left: 17px;
+
+}
+.product-right .mo{
+	color: #787878;
+	font-size: 13px;font-family: "宋体";
+	padding-left: 140px;
+}
+/*div*/
+.pinpai{width: 260px;height: 287px;overflow: hidden;
+	border:1px solid #ededed;border-top: none;
+}
+/*ul*/
+.pinpai .pinpaiImg{
+	width: 255px;height: 71px;float: left;
+}
+/* li */
+.pinpai .pinpaiImg img{border-top: 1px dotted #d3d3d3;width: 125px;height: 71px;float: left;}
+
+/*  --------------  1-6F------------*/
+.box4,.box5,.box6,.box7,.box8{width: 1210;height: 538px;margin: 0 auto;
+	float: left;border-bottom: 1px solid #CCC;}
+.box9{width: 1210;height: 269px;margin: 0 auto;
+	float: left;border-bottom: 1px solid #CCC;}
+.box4 .louti-top,.box5 .louti-top,.box6 .louti-top,.box7 .louti-top,.box8 .louti-top,.box9 .louti-top
+{width: 1210px;height: 33px;border-bottom: 2px solid black;}
+.louti-top dt{width: 195px;height:31px;font-size: 16px;
+	color: black;font-weight: bold;float: left;}
+.louti-top span{
+	display:inline-block;
+	width: 18px;
+	height: 23px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 20px;
+	background: url(img/indexBoxTitbg.jpg) no-repeat;
+}
+.louti-top ul{width: 1015px;height: 33px;float: right;}
+.louti-top ul li{
+	width: 120px;
+	height: 33px;
+	float: left;
+	display: block;
+	text-align: center;line-height:33px;
+	font-size: 14px;
+}
+.louti-top ul li a{color:#787878;}
+.louti-top ul li .active{color: #d70b15;}
+
+/*文字部分*/
+.louti-left{widows:195px;height:504px;float: left; overflow:hidden;}
+.louti-left{widows:195px;height:504px;
+	overflow:hidden;border-right:1px solid #eee;}
+.louti-left{widows:195px; overflow:hidden;}
+.louti-left .wrap{width: 195px;height: 168px;}
+.louti-left .wrap dl{width: 114px;height: 167px; 
+	position: absolute;z-index: 3;
+	background: white;
+	padding-left: 8px;
+}
+.wrap dl dt{height: 32px;line-height: 32px;font-size: 15px;font-weight: bold;}
+.wrap dl dd{width: 102px;height:25px;padding-left: 7px;}
+.wrap dl dd a{color: black;}
+
+.wrap dl dd a:hover{text-decoration: underline;}
+/*文字+图片*/
+.louti-left .pic-none{
+	
+	z-index: 0;
+	display: block;width:191px;float: right;
+	 position: absolute;margin-top: -168px;
+}
+/*----------图片显示*/
+.louti-left .pic-none img{width:190px;height: 165px;}
+.louti-left .pic-none:hover {width:191px;height: 167px;z-index: 100;}
+/*---------所有产品图片---------------------*/
+/* ul */
+.louti-allImg{
+	width: 1010px;
+	display: block;
+	float: right;
+}
+/*  li */
+.two{width: 200px;height: 251px;display: block;float: left;}
+
+.louti-allImg .two img{
+	width: 194px;height: 162px;
+}
+.two img:hover{width: 194px;height: 162px;
+margin:5px 1px;border: 1px solid #e3dedf;}
