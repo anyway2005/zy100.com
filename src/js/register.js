@@ -85,15 +85,15 @@ $(function(){
 			
 			var str4 = $input.eq(4).val();
 			
-			if(reg4.test(str4)){
-				
-				callback4 = 1;
-				return callback1;
-			}else{
-				// $span.eq(4).html("格式不正确");
-				callback4 = 0;
-				return callback1;
-				}
+				if(reg4.test(str4)){
+					
+					callback4 = 1;
+					return callback1;
+				}else{
+					// $span.eq(4).html("格式不正确");
+					callback4 = 0;
+					return callback1;
+					}
 			
 			});
 	 	
@@ -140,7 +140,7 @@ $(function(){
 				if(callback4==1&&callback3==1&&callback2==1&&callback1==1){
 					
 					alert('注册成功！');
-					location.href='dengru.html';
+				window.locations='dengru.html';
 				}else{
 						alert('请确认无误后再尝试！！');
 					
@@ -189,6 +189,7 @@ $(function(){
 			$span.html("请重新输入")
 		}
 	})
+	
 	
 
 

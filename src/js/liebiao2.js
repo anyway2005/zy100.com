@@ -73,49 +73,52 @@ $(function(){
 		// .find('a').eq($index).css({"color":"#5e5e5e"});
 	});
 	// 懒加载
+		
 		var $datalist=$('.louti-allImg');
-		var $ul=$('<ul/>');        //创建ul
-		$.ajaxSetup({  //设置全局变量
-				url:'data/goodslist.json', //路径     访问的是自建的一个json文件
-				success:function(res){//访问成功后返回res对象，文本类型，字符串
-					//生成一个ul
-					
-					$.each(res, function(idx,item) {
-						
+				var $ul=$('<ul/>');        //创建ul
+				$.ajaxSetup({  //设置全局变量
+					url:'/data/liebiao.json', //路径     访问的是自建的一个json文件
+					success:function(res){//访问成功后返回res对象，文本类型，字符串
+						//生成一个ul
+					console.log(res)	
+						$.each(res, function(idx,item) {
 
-						// <li><a href=""><img src="images/g1.jpg" alt=""></a><p class="title">国庆大优惠，只要998</p></li>
-						// 
-						var $li=$('<li/>');   //创建一个li
+							// <li><a href=""><img src="images/g1.jpg" alt=""></a><p class="title">国庆大优惠，只要998</p></li>
+							// 
+							var $li=$('ul.louti-allImg').find('li.two').last().clone();  //创建一个li
+							$li.find('img').attr({href:item.url});
+							$li.find('.namee').addClass('title');
+							$li.find('.price').addClass('price');
+							$li.find('.sale').addClass('commentCount');
+							//创建一个a  创建一个p
+							/*$('img').attr({href:item.url}).html('<img src="'+item.imgurl+'"/>').appendTo($li);;
+							$('<a/>').addClass('title').html(item.title).appendTo($li);
+							$('<p/>').addClass('price').html(item.price).appendTo($li);*/
+							// $('<span/>').addClass('commentCount').html(item.commentCount).appendTo($li);
+							
+							
+							// // 计算折扣后的价格                    //off 折扣1折               //保留小数点
+							// var price=(item.price*item.off).toFixed(2);
+							// $('<p/>').addClass('price').html('<span>&yen;'+price+ '</span><del>&yen;'+item.price.toFixed(2) + '</del>').appendTo($li);
+							$li.appendTo($ul);
+						});
 						
-						//创建一个a  创建一个p
+						$datalist.append($ul);
 						
-						$('<a/>').attr({href:item.url}).html('<img src="'+item.imgurl+'"/>').appendTo($li);;
-						$('<a/>').addClass('title').html(item.title).appendTo($li);
-						$('<p/>').addClass('price').html(item.price).appendTo($li);
-						$('<span/>').addClass('commentCount').html(item.commentCount).appendTo($li);
-						
-						// 计算折扣后的价格                    //off 折扣1折               //保留小数点
-						// var price=(item.price*item.off).toFixed(2);
-						// $('<p/>').addClass('price').html('<span>&yen;'+price+ '</span><del>&yen;'+item.price.toFixed(2) + '</del>').appendTo($li);
-						$li.appendTo($ul);
-					});
-					
-					$datalist.append($ul);
-					
-				}
-		});
-		$.ajax();
-		// 懒加载效果
-		// 给window绑定scroll事件，当差不多滚动到底部是加载更多内容
-		$(window).on('scroll',function(){
-			// 获取滚动条滚动过的距离
-			var scrolltop=$(window).scrollTop();
-			// 当差不多滚动到底部是加载更多内容
-			if(scrolltop>=$(document).height()-$(window).height()-100){
+					}
+				});
 				$.ajax();
-			}
-			
-		})	
+				// 懒加载效果
+				// 给window绑定scroll事件，当差不多滚动到底部是加载更多内容
+				$(window).on('scroll',function(){
+				// 获取滚动条滚动过的距离
+				var scrolltop=$(window).scrollTop();
+				// 当差不多滚动到底部是加载更多内容
+				if(scrolltop>=$(document).height()-$(window).height()-100){
+					$.ajax();
+				}
+					
+				})
 	//法二
 	 // 	var pageNum  =1;
 		// $.ajax({

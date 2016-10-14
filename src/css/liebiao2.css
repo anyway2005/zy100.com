@@ -202,7 +202,8 @@
 	float: right;
 }
 /*  li */
-.two{width: 246px;height: 375px;display: block;float: left;
+.two{
+	width: 246px;height: 375px;display:inline-block; float: left;
 	position: relative;
 }
 
@@ -227,13 +228,13 @@ margin:5px 1px;border: 1px solid #e3dedf;}
 .sale{width: 200px;
 	height: 24px;padding-left:15px;display: block;
 }
-.two p{
+/*.two p{
 	width: 200px;height: 30px;margin:0 auto;
 	display: inline-block;
 	
 }
 /*数量+加入购物车一起*/
-.sl{width: 30px;height: 28px;
+/*.sl{width: 30px;height: 28px;
 	line-height: 28px;
 	border: 1px solid #ccc;
 	text-align: center;
@@ -252,18 +253,18 @@ margin:5px 1px;border: 1px solid #e3dedf;}
 	display:inline-block;
 	position: absolute;
 	left:70px;
-}
+}*/
 /*加入购物车按钮*/
-.buy{
+/*.buy{
 	display: block;float: left;
 	height: 28px;width:80px;
 	background: url(../css/img/btn1.jpg) no-repeat;
 	color: white;
 	line-height:28px;
 	text-align: center;
-}
+}*/
 /*收藏*/
-.jiaru{
+/*.jiaru{
 	display: block;float: right;
 	height: 28px;width:31px;
 	font-size: 12px;
@@ -276,7 +277,7 @@ margin:5px 1px;border: 1px solid #e3dedf;}
 }
 .goumai a{
 	color: #000;
-}
+}*/
 /*分页按钮*/
 .fanye{
 	width: 400px;height: 24px;position: absolute;top:226px;right: 0;}
